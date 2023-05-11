@@ -178,6 +178,10 @@ Uiteindelijk is de belangrijke test natuurlijk met Eric.
 ## Test #1 met Eric
 
 Op 20 April was onze eerste test waarbij we met Eric konden zitten om ons prototype te testen.
+
+De test is een gezamelijke test met alle anderen die ook voor Eric deze opdracht gaan maken.
+De anderen testen dus op hetzelfde moment en wij konden meekijken met hun tests om ook daarvan te leren hoe Eric omgaat met 
+
 Het is ook belangrijk om te zeggen dat dit prototype in ongeveer twee uurtjes in elkaar is gezet en wij nog niet eerder een test hadden gedaan met Eric.
 Naast een testsessie was dit ook een belangrijk moment om verder te vragen over Eric's probleem.
 Eerst zal ik ingaan op de dingen die wij hebben ondervonden over de opdracht en daarna zal ik verdergaan over de dingen die wij hebben gemerkt tijdens het testen.
@@ -310,6 +314,12 @@ Van deze iteratie is ook een test gedaan [die hier te zien is](https://youtube.c
 Uiteindelijk is er geen derde officiele test, dus de derde iteratie is onze laatste versie van het product.
 Ik heb tijdens het werken aan deze opdracht veel geleerd over het proces van testen en over het principe van Exclusive Design.
 Ik kom niet van een CMD-achtige opleiding, dus het ontwerpen en maken voor eindgebruikers is niet iets waar ik veel ervaring mee heb, dus dit was een leerzame ervaring.
+
+Tijdens het testen is het belangrijk dat je zo weinig mogelijk uitlegt over je app, want het is belangrijk dat het intuitief is voor de gebruiker om te gebruiken.
+Als je moet uitleggen hoe functionaliteit werkt dan is het natuurlijk niet intuitief geweest.
+Ook moet je als tester veel opschrijven en zelf vragen stellen over de gebruiker en wat de gebruiker wil.
+Dit is belangrijk voor de 'Study Situation' en 'Prioritise Identity' Exclusive Design Principles.
+Observatie is belangrijk en onder andere het uitleggen van de werking van de app is een verstoring van hoe de gebruiker normaalgesproken zou werken met de app.
 
 ### Leerdoelen
 
