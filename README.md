@@ -4,7 +4,42 @@
 
 ![De app](docs/prototype-3.gif)
 
-**Onderzoeksvraag**: Voor Eric zijn emoji’s niet goed genoeg. Wij wil betere en krachtigere tools om emotie en body language te gebruiken in chat apps zoals Signal.
+- [Eric body language in chat](#eric-body-language-in-chat)
+				- [Auteur: **Quenten Schoonderwoerd**](#auteur-quenten-schoonderwoerd)
+	- [Vooronderzoek](#vooronderzoek)
+	- [Exclusive Design Principles](#exclusive-design-principles)
+		- [Study situation](#study-situation)
+		- [Ignore conventions](#ignore-conventions)
+		- [Prioritise identity](#prioritise-identity)
+		- [Add nonsense](#add-nonsense)
+	- [Ideeën](#ideeën)
+		- [Emoji zoeker](#emoji-zoeker)
+		- [Emoji suggesties](#emoji-suggesties)
+		- [Emoji's genereren door beeldherkenning](#emojis-genereren-door-beeldherkenning)
+		- [Emoji's suggereren op basis van AI beeldherkenning en emotie analyse](#emojis-suggereren-op-basis-van-ai-beeldherkenning-en-emotie-analyse)
+	- [User Scenario](#user-scenario)
+		- [Wie is Eric](#wie-is-eric)
+		- [Wat wil Eric op onze website](#wat-wil-eric-op-onze-website)
+		- [Hoe gaat Eric dit bereiken](#hoe-gaat-eric-dit-bereiken)
+		- [Waarom komt Eric naar onze website](#waarom-komt-eric-naar-onze-website)
+	- [Eerste prototype](#eerste-prototype)
+	- [Test #1 met Eric](#test-1-met-eric)
+		- [Achtergrond](#achtergrond)
+		- [Testen](#testen)
+		- [Conclusie test 1](#conclusie-test-1)
+	- [Test #2 met/zonder Eric](#test-2-metzonder-eric)
+		- [Aannames voor de test](#aannames-voor-de-test)
+		- [Test #2 met Eric](#test-2-met-eric)
+		- [Conclusie test 2](#conclusie-test-2)
+	- [Derde iteratie](#derde-iteratie)
+	- [Conclusie](#conclusie)
+		- [Leerdoelen](#leerdoelen)
+			- [Leren hoe je (design) principles kan toepassen in een ontwerp](#leren-hoe-je-design-principles-kan-toepassen-in-een-ontwerp)
+			- [Users needs begrijpen en gebruiken in je ontwerp](#users-needs-begrijpen-en-gebruiken-in-je-ontwerp)
+			- [Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp](#leren-hoe-je-moet-testen-en-de-resultaten-gebruiken-voor-het-verbeteren-van-je-ontwerp)
+
+
+**Onderzoeksvraag**: Hoe kan je op een krachtigere manier dan emoji's body language tonen in chat apps?
 
 ## Vooronderzoek
 
@@ -22,6 +57,41 @@ Mijn korte onderzoek laat mij dus denken dat de opdracht zoals direct geinterpre
 Daarom zal moeten worden gekeken naar alternatieven die ook voldoen als antwoord.
 Gelukkig bestaan er al methoden om ten minste emotie door te brengen over het internet, voornamelijk met behulp van emoticons.
 Andere technieken zijn bijvoorbeeld: stickers, foto's en gifs.
+
+## Exclusive Design Principles
+
+De Exclusive Design Principles hebben ons geholpen als richtlijnen om te bepalen waar we op moesten focussen.
+Onze app is zeker beter geworden door deze principes in gedachten te houden terwijl we de app ontwikkelden.
+
+### Study situation
+
+Tijdens de tests hebben wij gekeken naar hoe Eric omgaat met zijn apparatuur, zoals zijn telefoon of met onze laptops.
+Ook hebben wij gekeken naar de dingen om hem heen, voornamelijk zijn elektrische rolstoel.
+Aan de hand van deze observaties kan worden gezien dat Eric ondanks zijn beperking wel snel kan omgaan met bijvoorbeeld een telefoon, maar dat slechts bepaalde acties lastig zijn.
+
+In onze prototypes hebben wij hier rekening mee gehouden door niet te vereisen dat hij bijvoorbeeld zijn camera moet gebruiken, iets dat lastig is voor hem.
+Daarnaast is de interface makkelijk te gebruiken en zo gemaakt dat zijn hand de interface niet blokkeert als hij ermee probeert te werken.
+
+### Ignore conventions
+
+Wij hebben bij het maken van onze prototypes wel gekeken naar wat wij anders konden doen dan het normale design.
+Het voornaamste verschil is dat er geen traditioneel emojiselectiescherm aanwezig is.
+Dat is omdat Eric aan heeft gegeven dat hij moeite heeft met het vinden van emoji's in zo'n scherm.
+
+### Prioritise identity
+
+Tijdens de test hebben wij veel feedback gekregen van Eric wat hij hebben verwerkt in onze prototypes.
+Wij hebben geprobeert om Eric te betrekken in het proces door veel aan hem te vragen.
+Tot onze spijt heeft Eric niet altijd de tijd en houdt hij zijn rollen als docent en testpersoon goed gescheiden, dus konden we niet de hele tijd feedback vragen voor elke verandering.
+
+### Add nonsense
+
+Onze prototypes hebben een nieuwe technologie toegepast om het aantrekkelijk te maken voor Eric, namelijk AI.
+Wij gebruiken GPT-3.5 om de aanbevelingen te doen.
+Hoe de AI de suggesties doet van emoji's is altijd gerelateerd aan de tekst, maar heeft wel altijd wel een element van willekeur, wat het leuk maakt om te gebruiken.
+
+Tijdens het ontwikkelen hebben wij zelf al gemerkt dat het erg leuk is om gewoon te spelen met de app en tijdens de test gaf Eric ook hetzelfde aan.
+Wij zijn erg tevreden met dit resultaat en het is duidelijk dat Eric het erg leuk vindt om te gebruiken.
 
 ## Ideeën
 
@@ -152,9 +222,15 @@ Ook is er het probleem dat Eric slecht werkt met zijn handen, dus het is vervele
 Een touchscreen gaat wel goed, maar voor een laptop is het gebruik van een muis wel vervelend.
 Dit is een verbeterpunt.
 
+### Conclusie test 1
+
+Na test één hebben wij een aantal dingen gemerkt dat wij moesten aanpassen aan de app, maar over het algemeen is de functionaliteit van de app erg spot-on.
+Wij hadden zoals eerder benoemd geobserveerd dat Eric moeite heeft met gebruiken van de muis, daarom hebben wij functionaliteit toegevoegd om het toetsenbord te gebruiken om de emoji's te selecteren en te versturen.
+Ook hebben wij bedacht dat een tutorial nodig was om de gebruiker uit te leggen hoe de app werkt.
+
 ## Test #2 met/zonder Eric
 
-Op de tweede testdag was Eric ziek en deze is daarom verplaatst naar de woensdag na de meivakantie op 10 mei.
+Op de tweede testdag was Eric ziek en deze is daarom verplaatst naar de woensdag na de meivakantie op tien mei.
 Om deze reden hebben wij een test tussendoor gedaan met een klasgenoot om ons product te testen.
 Dit is niet een representatieve test, maar wel een beetje een test voordat de echte test begint.
 
@@ -164,13 +240,13 @@ Hiermee is het makkelijker om emoji's te selecteren als de gebruiker geen muis w
 Deze test is uitgevoerd op een klasgenoot en is [hier](https://cdn.nicecock.eu/hcd/hcd/Attachments/kb-shortcut-test-ting.mp4) te zien.
 
 In de video is te zien dat er een soort tutorial getoond wordt op het moment dat de emoji's gesuggereerd worden.
-Echter, deze klasgenoot was veel te snel en heeft de volledige tutorial gemist\dots
+Echter, deze klasgenoot was veel te snel en heeft de volledige tutorial gemist...
 Dit was niet de bedoeling natuurlijk.
 
+Hiervoor was het beter om de gebruiker te forceren om de tutorial te volgen, wat de volgende versie is geworden.
 Wij hebben voor deze versie van het product een tweede versie gemaakt waarin we de controls van de emoji picker hebben gedisabled, waarvan een demonstratie [hier](https://cdn.nicecock.eu/hcd/hcd/Attachments/kb-shortcuts-disable-ui.mov) te zien is.
 Het doel van deze versie is om de *mental load* van de gebruiker te verlagen.
 Er wordt een backdrop toegevoegd om hiermee te helpen en de controls worden gedisabled.
-
 <!-- TODO: VOEG DE VIDEO VAN DEZE TEST TOE -->
 
 ### Aannames voor de test
@@ -188,30 +264,36 @@ Onze test is het belangrijkste voor dit verslag, maar er zijn wel dingen die ben
 * Eric zou het fijn vinden als hij de emotie kan veranderen na het versturen.
 * De muis is minder handig dan de trackpad.
 
-De tutorial was niet inituitief.
-Hij vroeg zich af waarom de enter toets niet werkte 
-De app was buggy en hij wilde niet versturen.
-Het moeten wachten op de emoji's is niet handig, zeker als je gewoon iets wil versturen zonder emoji's.
-Hij neigt wel om gewoon de muis/trackpad te gebruiken, want dat is hij gewend.
-Het is niet altijd logisch om twee emoji's te versturen, soms wil hij er maar eentje hebben.
-De emoji's zijn in de tekst een beetje klein, hij vraagt zich af of dat groter kan.
-Zelf zegt hij dat hij zich afvraagt of de ontvanger dat wel goed kan zien.
+Toen de test begon werd het al vrij snel duidelijk dat de tutorial niet intuitief werkt.
+Eric had een bericht getypt en probeerde deze te versturen, maar dit lukte niet omdat de enter-toets gedeactiveerd was om hem te forceren de tutorial te volgen.
+Ook was de bediening van het toetsenbord niet direct duidelijk.
+Als laatste was de bediening met het toetsenbord niet erg handig en daarom gebruikte hij toch veel de trackpad.
+Uiteindelijk bleek dat hij toch weinig moeite had met het gebruik van de trackpad.
 
-Hij vindt het wel leuk om mee te spelen.
-Het is niet altijd nodig om emoji's te versturen.
-Hij zou ook wel een optie waarderen om een enkele emoji te versturen.
-Hij vindt het vooral leuk speelgoed, maar ook wel nuttig om te doen. 
+Een belangrijk feedbackpunt was dat Eric vond dat het niet altijd nodig was om twee emoji's te versturen, maar dat soms één voldoende is.
+Dit is zeker een goede suggestie voor de volgende versie.
 
-Er was een suggestie van Eric tijdens de test die erg nuttig leek:
-Suggereer 1 emoji, maar voeg dan een plusje toe om dan een tweede emoji toe te voegen!
-Een aan/uit knopje om de emoji's niet te suggereren.
+Ook vond Eric het niet altijd nodig om überhaubt emoji's te versturen.
+Dit hadden wij ook wel verwacht, daarom is het slechts een optie om de emoji's toe te voegen.
+Als de emoji's nog aan het laden zijn is het (als de tutorial afgerond is) gewoon mogelijk om direct het bericht te versturen.
+
+Eric gaf wel aan dat het leuk en plezierig is om met de app te spelen.
+Dit is erg positief om te horen en daar zijn wij erg blij mee.
+
+Een andere suggestie was om een aan/uit-knopje toe te voegen waarmee de emoji suggesties aan of uitgezet kunnen worden.
 
 Van deze test is er ook een video [die hier te zien is](https://www.youtube.com/watch?v=Xwmjzj9Me2I).
 
+### Conclusie test 2
+
+Over het algemeen was de tweede test al een succes en waren er weinig dingen die nog aangepast moesten worden.
+Dit is vooral te concluderen uit het feit dat Eric het prettig vond om de applicatie te gebruiken.
+Dit betekend dat wij voor de volgende iteratie een grote kans hebben dat Eric deze versie volledig accepteert.
+
 ## Derde iteratie
 
-Aan de hand van de resultaten van de test heb ik een nieuw idee bedacht voor de iteratie.
-Wij werken wel met een groep, maar de laatste iteratie is een unieke versie voor elk groepslid.
+Voor de derde iteratie heeft ieder lid van de groep zijn eigen iteratie gemaakt.
+
 De reactie op het product tijdens de tweede test was over het algemeen erg positief, maar er waren een paar kleine dingetjes die verbeterd konden worden.
 Daaruit heb ik gehaald dat het beter zou zijn als Eric ook de mogelijkheid krijgt om zelf te kiezen of hij één of twee emoji's verstuurd.
 Mijn versie van het laatste product zorgt voor die functionaliteit.
@@ -219,6 +301,39 @@ Mijn versie van het laatste product zorgt voor die functionaliteit.
 In de nieuwe versie wordt per suggestieknop slechts één emoji getoond, maar nadat Eric een emoji heeft geselecteerd worden de suggestieknoppen veranderd naar de tweede emoji van het paar.
 Zo kunnen de suggesties worden gepersonaliseerd, maar hoop ik wel dat er niet te veel mental load is.
 
-In deze versie is ook de tutorial voor de toetsenbordcontrole verwijderd, want het is super onhandig.
+In deze versie is ook de tutorial voor de toetsenbordcontrole verwijderd, want het bleek onhandig in gebruik.
 
 Van deze iteratie is ook een test gedaan [die hier te zien is](https://youtube.com/shorts/IZRY7AdJLQE).
+
+## Conclusie 
+
+Uiteindelijk is er geen derde officiele test, dus de derde iteratie is onze laatste versie van het product.
+Ik heb tijdens het werken aan deze opdracht veel geleerd over het proces van testen en over het principe van Exclusive Design.
+Ik kom niet van een CMD-achtige opleiding, dus het ontwerpen en maken voor eindgebruikers is niet iets waar ik veel ervaring mee heb, dus dit was een leerzame ervaring.
+
+### Leerdoelen
+
+De leerdoelen van het vak waren:
+
+* Leren hoe je (design) principles kan toepassen in een ontwerp
+* User needs begrijpen en gebruiken in je ontwerp
+* Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp
+
+#### Leren hoe je (design) principles kan toepassen in een ontwerp
+
+Dit leerdoel is behaald omdat ik heb geleerd hoe ik de design principles moet toepassen in een ontwerp voor een applicatie.
+Zoals verteld in [Exclusive Design Principles](#exclusive-design-principles) heb ik deze principles in de app toegepast.
+
+#### Users needs begrijpen en gebruiken in je ontwerp
+
+Eric's needs waren in eerste instantie lastig om te begrijpen, maar zeker na de eerste test hebben we zijn probleem ons eigen gemaakt.
+Ik heb geleerd hoe ik precies voor één specifiek persoon kan ontwerpen door zijn/haar wensen te begrijpen.
+Ook heb ik geleerd hoe ik tijdens tests en interviews de needs van de gebruiker verder kan uitwerken en begrijpen als zij zelf niet precies kunnen verwoorden wat zij bedoelen.
+Dit leerdoel is om de bovenstaande redenen behaald.
+
+#### Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp
+
+Tijdens het testen heb ik veel notities gemaakt en gekeken naar hoe precies de gebruiker omgaat met de applicatie.
+Ik heb geleerd dat je goed moet opletten en ook waar je op moet letten tijdens het testen.
+Ook heb ik deze resultaten toegepast om het ontwerp te verbeteren.
+Ook dit leerdoel heb ik behaald.
