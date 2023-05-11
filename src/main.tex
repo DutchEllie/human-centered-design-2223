@@ -33,7 +33,7 @@
     frame=single,
 }
 
-\title{Eric body language in chat}
+\title{\fontsize{30}{36}\textbf{Eric body language in chat}}
 \author{Quenten Schoonderwoerd}
 \date{\today}
 
@@ -65,17 +65,7 @@ Daarom zal moeten worden gekeken naar alternatieven die ook voldoen als antwoord
 Gelukkig bestaan er al methoden om ten minste emotie door te brengen over het internet, voornamelijk met behulp van emoticons.
 Andere technieken zijn bijvoorbeeld: stickers, foto's en gifs.
 
-\section{User Scenario}
 
-\subsection{Wie is Eric}
-
-Door de handicap van Eric heeft hij moeite met het gebruiken van zijn armen, wat veel impact heeft op hoe hij techniek gebruikt.
-
-\subsection{Wat wil Eric op onze website}
-
-
-Het probleem dat hij heeft is dat hij moeite heeft met het uiten van emoties via chat applicaties.
-Door hoe hij een telefoon of laptop gebruikt is het ook belangrijk om na te denken over hoe de applicatie eruit komt te zien om het makkelijk te maken om te gebruiken
 
 \clearpage\section{Ideeën}
 Ik heb in een groep met twee anderen gewerkt aan deze opdracht, namelijk Melvin en Jesse.
@@ -104,6 +94,8 @@ Sommige emoji's hebben namelijk andere betekenissen op basis van de context.
 Dit idee stamt uit hetzelfde onderzoek als hierboven benoemt, waaruit bleek dat mensen soms moeite hebben met het vinden van de juiste emoji.
 Wij bedachten een manier waarmee tekst kon worden geanalyseerd en emoji's konden worden gesuggereerd op basis van deze tekst.
 
+Dit is uiteindelijk ook het gekozen idee geworden.
+
 \subsection{Emoji's genereren door beeldherkenning}
 
 Met recente ontwikkelingen op het gebied van AI is het mogelijk om afbeeldingen te genereren met een tekst prompt en zelfs met een andere afbeelding.
@@ -115,6 +107,31 @@ Eric zou een foto kunnen nemen van zichzelf wanneer hij via chat emotie wilt doo
 Deze foto zou vervolgens worden geanalyseerd door AI en emoji's kunnen dan worden gesuggereert.
 Dit is anders dan het idee hierboven in dat het geen afbeelding generatie bevat, enkel suggesties van al bestaande emoji's.
 
+\section{User Scenario}
+
+\subsection{Wie is Eric}
+
+Door de handicap van Eric heeft hij moeite met het gebruiken van zijn armen, wat veel impact heeft op hoe hij techniek gebruikt.
+In chat applicaties heeft Eric vaak moeite om emoties te uiten.
+Zijn vraag is dus of wij een systeem kunnen ontwerpen waarmee hij dit makkelijk kan versturen naar de persoon waarmee hij chat.
+
+\subsection{Wat wil Eric op onze website}
+
+Zoals besproken hierboven is het probleem dat hij heeft dat hij moeite heeft met het uiten van emoties via chat applicaties.
+Wat er dus van onze applicatie gevraagd wordt is dat hij emoties kan versturen via de chat.
+Door hoe hij een telefoon of laptop gebruikt is het ook belangrijk om na te denken over hoe de applicatie eruit komt te zien en of het voor hem gebruiksvriendelijk is om te gebruiken.
+
+\subsection{Hoe gaat Eric dit bereiken}
+
+Eric heeft aangegeven dat hij het lastig vindt om emoji's te gebruiken.
+Dit zegt hij omdat hij het moeilijk vindt om een traditioneel emojiselectiescherm te gebruiken en tevens omdat hij begrijpt dat in andere culturen emoji's soms andere betekenissen hebben.
+Eric wil vooral een makkelijke en snelle manier van het versturen van emotie via chat.
+Het moet niet al te veel tijd kosten en moet niet te moeilijk zijn, maar wel expressief zodat hij veel verschillende soorten emoties kan versturen.
+
+\subsection{Waarom komt Eric naar onze website}
+
+Op onze website is een prototype van een chatapplicatie waar tijdens het typen van tekst suggesties worden gedaan voor emoji's die passen bij te tekst die is getypt.
+Dit is een oplossing voor het probleem omdat dit het proces versimpelt waarmee emoji's kunnen worden geselecteerd.
 
 \clearpage\section{Eerste prototype}
 
@@ -140,7 +157,7 @@ Dit kan komen omdat wij niet vertelde wat het punt was van de app, maar waarschi
 
 Uiteindelijk is de belangrijke test natuurlijk met Eric.
 
-\section{Test \#1 met Eric}
+\clearpage\section{Test \#1 met Eric}
 
 Op 20 April was onze eerste test waarbij we met Eric konden zitten om ons prototype te testen.
 Het is ook belangrijk om te zeggen dat dit prototype in ongeveer twee uurtjes in elkaar is gezet en wij nog niet eerder een test hadden gedaan met Eric.
@@ -188,7 +205,7 @@ Ook is er het probleem dat Eric slecht werkt met zijn handen, dus het is vervele
 Een touchscreen gaat wel goed, maar voor een laptop is het gebruik van een muis wel vervelend.
 Dit is een verbeterpunt.
 
-\section{Test \#2 met/zonder Eric}
+\clearpage\section{Test \#2 met/zonder Eric}
 
 Op de tweede testdag was Eric ziek en deze is daarom verplaatst naar de woensdag na de meivakantie op 10 mei.
 Om deze reden hebben wij een test tussendoor gedaan met een klasgenoot om ons product te testen.
@@ -223,7 +240,6 @@ Onze test is het belangrijkste voor dit verslag, maar er zijn wel dingen die ben
 	\item	De pijltjestoetsen zijn het handigst voor Eric, want dat werkt beter voor hem.
 	\item Eric zou het fijn vinden als hij de emotie kan veranderen na het versturen.
 	\item De muis is minder handig dan de trackpad.
-	\item 
 \end{itemize}
 
 % IDEEEN VOOR LATER
@@ -251,7 +267,22 @@ Suggestie:
 Suggereer 1 emoji, maar voeg dan een plusje toe om dan een tweede emoji toe te voegen!
 Een aan/uit knopje om de emoji's niet te suggereren.
 
+Van deze test is er ook een video \href{https://www.youtube.com/watch?v=Xwmjzj9Me2I}{die hier te zien is}.
 
+\clearpage\section{Derde iteratie}
+
+Aan de hand van de resultaten van de test heb ik een nieuw idee bedacht voor de iteratie.
+Wij werken wel met een groep, maar de laatste iteratie is een unieke versie voor elk groepslid.
+De reactie op het product tijdens de tweede test was over het algemeen erg positief, maar er waren een paar kleine dingetjes die verbeterd konden worden.
+Daaruit heb ik gehaald dat het beter zou zijn als Eric ook de mogelijkheid krijgt om zelf te kiezen of hij één of twee emoji's verstuurd.
+Mijn versie van het laatste product zorgt voor die functionaliteit.
+
+In de nieuwe versie wordt per suggestieknop slechts één emoji getoond, maar nadat Eric een emoji heeft geselecteerd worden de suggestieknoppen veranderd naar de tweede emoji van het paar.
+Zo kunnen de suggesties worden gepersonaliseerd, maar hoop ik wel dat er niet te veel mental load is.
+
+In deze versie is ook de tutorial voor de toetsenbordcontrole verwijderd, want het is super onhandig.
+
+Van deze iteratie is ook een test gedaan \href{https://youtube.com/shorts/IZRY7AdJLQE}{die hier te zien is}.
 
 % \section{Lists}
 % \subsection{Bullet Points}
