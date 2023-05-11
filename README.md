@@ -1,8 +1,10 @@
 # Eric body language in chat
 
-**Opdracht**: Eric zit in een elektrische rolstoel en heeft weinig aan zijn handen.
-Hij wil beter lichaamstaal kunnen uiten in chat apps zoals Signal.
-Maak een interface voor hem waarmee hij dit kan bereiken.
+##### Auteur: **Quenten Schoonderwoerd**
+
+![De app](docs/prototype-3.gif)
+
+**Onderzoeksvraag**: Voor Eric zijn emoji’s niet goed genoeg. Wij wil betere en krachtigere tools om emotie en body language te gebruiken in chat apps zoals Signal.
 
 ## Vooronderzoek
 
@@ -47,6 +49,8 @@ Sommige emoji's hebben namelijk andere betekenissen op basis van de context.
 Dit idee stamt uit hetzelfde onderzoek als hierboven benoemt, waaruit bleek dat mensen soms moeite hebben met het vinden van de juiste emoji.
 Wij bedachten een manier waarmee tekst kon worden geanalyseerd en emoji's konden worden gesuggereerd op basis van deze tekst.
 
+Dit is uiteindelijk ook het gekozen idee geworden.
+
 ### Emoji's genereren door beeldherkenning
 
 Met recente ontwikkelingen op het gebied van AI is het mogelijk om afbeeldingen te genereren met een tekst prompt en zelfs met een andere afbeelding.
@@ -57,6 +61,32 @@ Wij bedachten een manier waarmee emoji's door middel van AI konden worden gegene
 Eric zou een foto kunnen nemen van zichzelf wanneer hij via chat emotie wilt doorgeven.
 Deze foto zou vervolgens worden geanalyseerd door AI en emoji's kunnen dan worden gesuggereert.
 Dit is anders dan het idee hierboven in dat het geen afbeelding generatie bevat, enkel suggesties van al bestaande emoji's.
+
+## User Scenario
+
+### Wie is Eric
+
+Door de handicap van Eric heeft hij moeite met het gebruiken van zijn armen, wat veel impact heeft op hoe hij techniek gebruikt.
+In chat applicaties heeft Eric vaak moeite om emoties te uiten.
+Zijn vraag is dus of wij een systeem kunnen ontwerpen waarmee hij dit makkelijk kan versturen naar de persoon waarmee hij chat.
+
+### Wat wil Eric op onze website
+
+Zoals besproken hierboven is het probleem dat hij heeft dat hij moeite heeft met het uiten van emoties via chat applicaties.
+Wat er dus van onze applicatie gevraagd wordt is dat hij emoties kan versturen via de chat.
+Door hoe hij een telefoon of laptop gebruikt is het ook belangrijk om na te denken over hoe de applicatie eruit komt te zien en of het voor hem gebruiksvriendelijk is om te gebruiken.
+
+### Hoe gaat Eric dit bereiken
+
+Eric heeft aangegeven dat hij het lastig vindt om emoji's te gebruiken.
+Dit zegt hij omdat hij het moeilijk vindt om een traditioneel emojiselectiescherm te gebruiken en tevens omdat hij begrijpt dat in andere culturen emoji's soms andere betekenissen hebben.
+Eric wil vooral een makkelijke en snelle manier van het versturen van emotie via chat.
+Het moet niet al te veel tijd kosten en moet niet te moeilijk zijn, maar wel expressief zodat hij veel verschillende soorten emoties kan versturen.
+
+### Waarom komt Eric naar onze website
+
+Op onze website is een prototype van een chatapplicatie waar tijdens het typen van tekst suggesties worden gedaan voor emoji's die passen bij te tekst die is getypt.
+Dit is een oplossing voor het probleem omdat dit het proces versimpelt waarmee emoji's kunnen worden geselecteerd.
 
 ## Eerste prototype
 
@@ -105,3 +135,90 @@ Het schijnt voor hem een frustratiepunt te zijn om emoji's te selecteren, want e
 Dit is precies wat ik ook in het vooronderzoek had gelezen.
 Hij heeft dus moeite met het vinden van emoji's in het standaard emojiselectiescherm.
 Ons prototype waarmee we een emoji suggestie functie hebben gemaakt kwam dus goed aan.
+
+Wij hebben ook [een video opgenomen](https://cdn.nicecock.eu/hcd/hcd/Attachments/initiele-test-stuur-bericht.mp4) van de initiële test met Eric.
+Hierin is te zien hoe Eric een bericht verstuurd via Whatsapp.
+
+### Testen
+
+Deze test is ook [op video](https://cdn.nicecock.eu/hcd/hcd/Attachments/test-not-working-ai.mp4) te bekijken. 
+
+Voor de test hebben wij ons product laten zien aan Eric en hij heeft het kunnen uitproberen.
+Tijdens het typen van de tekst werden er emoji's gesuggereerd die passen bij de tekst.
+Het een van de dingen lastig was was om de gebruiker te laten weten hoe het werkt op de eerste keer dat hij het gebruikt.
+Een soort tutorial is wel nodig.
+
+Ook is er het probleem dat Eric slecht werkt met zijn handen, dus het is vervelend om een muis te gebruiken.
+Een touchscreen gaat wel goed, maar voor een laptop is het gebruik van een muis wel vervelend.
+Dit is een verbeterpunt.
+
+## Test #2 met/zonder Eric
+
+Op de tweede testdag was Eric ziek en deze is daarom verplaatst naar de woensdag na de meivakantie op 10 mei.
+Om deze reden hebben wij een test tussendoor gedaan met een klasgenoot om ons product te testen.
+Dit is niet een representatieve test, maar wel een beetje een test voordat de echte test begint.
+
+Aan de hand van de eerste test hebben wij een paar pijnpunten gevonden die verbetert konden worden.
+Een van deze verbeteringen was het toevoegen van toetsenbord snelkoppelingen.
+Hiermee is het makkelijker om emoji's te selecteren als de gebruiker geen muis wil/kan gebruiken.
+Deze test is uitgevoerd op een klasgenoot en is [hier](https://cdn.nicecock.eu/hcd/hcd/Attachments/kb-shortcut-test-ting.mp4) te zien.
+
+In de video is te zien dat er een soort tutorial getoond wordt op het moment dat de emoji's gesuggereerd worden.
+Echter, deze klasgenoot was veel te snel en heeft de volledige tutorial gemist\dots
+Dit was niet de bedoeling natuurlijk.
+
+Wij hebben voor deze versie van het product een tweede versie gemaakt waarin we de controls van de emoji picker hebben gedisabled, waarvan een demonstratie [hier](https://cdn.nicecock.eu/hcd/hcd/Attachments/kb-shortcuts-disable-ui.mov) te zien is.
+Het doel van deze versie is om de *mental load* van de gebruiker te verlagen.
+Er wordt een backdrop toegevoegd om hiermee te helpen en de controls worden gedisabled.
+
+<!-- TODO: VOEG DE VIDEO VAN DEZE TEST TOE -->
+
+### Aannames voor de test
+
+Voor de test met Eric verwachten we dat hij ongeveer hetzelfde reageert op de tutorial als onze testpersonen, namelijk dat dit niet gezien gaat worden.
+Toch gaan we dit testen om te zien of het wel of niet zal werken, om onze aannames te testen.
+
+### Test #2 met Eric
+
+Tijdens de test zijn er meerdere producten van verschillende groepen getest met Eric.
+Onze test is het belangrijkste voor dit verslag, maar er zijn wel dingen die benoemd kunnen worden van andere groepen.
+
+* Zorg ervoor dat in de chat applicatie het toetsenbord niet verdwijnt wanneer Eric het bericht verzend.
+*	De pijltjestoetsen zijn het handigst voor Eric, want dat werkt beter voor hem.
+* Eric zou het fijn vinden als hij de emotie kan veranderen na het versturen.
+* De muis is minder handig dan de trackpad.
+
+De tutorial was niet inituitief.
+Hij vroeg zich af waarom de enter toets niet werkte 
+De app was buggy en hij wilde niet versturen.
+Het moeten wachten op de emoji's is niet handig, zeker als je gewoon iets wil versturen zonder emoji's.
+Hij neigt wel om gewoon de muis/trackpad te gebruiken, want dat is hij gewend.
+Het is niet altijd logisch om twee emoji's te versturen, soms wil hij er maar eentje hebben.
+De emoji's zijn in de tekst een beetje klein, hij vraagt zich af of dat groter kan.
+Zelf zegt hij dat hij zich afvraagt of de ontvanger dat wel goed kan zien.
+
+Hij vindt het wel leuk om mee te spelen.
+Het is niet altijd nodig om emoji's te versturen.
+Hij zou ook wel een optie waarderen om een enkele emoji te versturen.
+Hij vindt het vooral leuk speelgoed, maar ook wel nuttig om te doen. 
+
+Er was een suggestie van Eric tijdens de test die erg nuttig leek:
+Suggereer 1 emoji, maar voeg dan een plusje toe om dan een tweede emoji toe te voegen!
+Een aan/uit knopje om de emoji's niet te suggereren.
+
+Van deze test is er ook een video [die hier te zien is](https://www.youtube.com/watch?v=Xwmjzj9Me2I).
+
+## Derde iteratie
+
+Aan de hand van de resultaten van de test heb ik een nieuw idee bedacht voor de iteratie.
+Wij werken wel met een groep, maar de laatste iteratie is een unieke versie voor elk groepslid.
+De reactie op het product tijdens de tweede test was over het algemeen erg positief, maar er waren een paar kleine dingetjes die verbeterd konden worden.
+Daaruit heb ik gehaald dat het beter zou zijn als Eric ook de mogelijkheid krijgt om zelf te kiezen of hij één of twee emoji's verstuurd.
+Mijn versie van het laatste product zorgt voor die functionaliteit.
+
+In de nieuwe versie wordt per suggestieknop slechts één emoji getoond, maar nadat Eric een emoji heeft geselecteerd worden de suggestieknoppen veranderd naar de tweede emoji van het paar.
+Zo kunnen de suggesties worden gepersonaliseerd, maar hoop ik wel dat er niet te veel mental load is.
+
+In deze versie is ook de tutorial voor de toetsenbordcontrole verwijderd, want het is super onhandig.
+
+Van deze iteratie is ook een test gedaan [die hier te zien is](https://youtube.com/shorts/IZRY7AdJLQE).
