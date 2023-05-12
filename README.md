@@ -1,11 +1,8 @@
 # Eric body language in chat
 
-##### Auteur: **Quenten Schoonderwoerd**
-
 ![De app](docs/prototype-3.gif)
 
 - [Eric body language in chat](#eric-body-language-in-chat)
-				- [Auteur: **Quenten Schoonderwoerd**](#auteur-quenten-schoonderwoerd)
 	- [Vooronderzoek](#vooronderzoek)
 	- [Exclusive Design Principles](#exclusive-design-principles)
 		- [Study situation](#study-situation)
