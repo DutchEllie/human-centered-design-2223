@@ -6,3 +6,5 @@
 *.synctex.gz
 
 *.zip
+
+node_modules/
